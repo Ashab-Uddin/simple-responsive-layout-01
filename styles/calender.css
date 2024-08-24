@@ -1,0 +1,19 @@
+.calender-container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.date , .day{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+.day{
+    background-color: antiquewhite;
+}
